@@ -1,0 +1,9 @@
+int asdfsqf = 17;
+int b = 1;
+int c = 0;
+
+c = (a + b);
+c = b / b;
+c = a * a;
+c = (a - b);
+c = a % b;

@@ -1,0 +1,22 @@
+1. Afficher toutes les lignes contenant Lupin.
+    grep Lupin Arsene_Lupin.txt
+
+2. Afficher toutes les lignes contenant LUPIN.
+    grep Lupin Arsene_Lupin.txt
+
+3. Utiliser l’option -n pour afficher en plus les numéros de ligne.
+    grep -n  Lupin Arsene_Lupin.txt
+
+4. Utiliser l’option -c pour juste afficher le nombre de lignes.
+    grep -c  Lupin Arsene_Lupin.txt
+
+5. Utiliser l’option -i pour ne pas tenir compte de la casse
+    grep -i  Lupin Arsene_Lupin.txt
+
+6. Utiliser conjointement les options -i et -c (vous pouvez taper -ic ).
+    grep -ic  Lupin Arsene_Lupin.txt
+
+7. Afficher maintenant les lignes contenant les chaînes de caractère de la forme lu.*in sans tenir compte de la
+casse, combien y en a-t-il ?
+    grep -ic lu.*in Arsene_Lupin.txt
+    -> 434
