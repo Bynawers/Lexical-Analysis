@@ -1,1 +1,19 @@
-a b c
+avec
+ceder
+c
+c
+c
+ceder
+-2
+ccc
+print(a)
+<
+>
+<=
+>=
+==
+!=
+si
+alors
+sinon
+finsi
